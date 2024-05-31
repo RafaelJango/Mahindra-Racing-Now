@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahindra Challenge Now</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="src/css/style_dashboard.css" />
+  </head>
+
+  <body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <img src="./src/images/logo1.png" class="logoicon" />
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </span>
+              <span class="title">Friends</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="stats-chart-outline"></ion-icon>
+              </span>
+              <span class="title">Stats</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="flame-outline"></ion-icon>
+              </span>
+              <span class="title">Rank</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="storefront-outline"></ion-icon>
+              </span>
+              <span class="title">Store</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="log-out-outline"></ion-icon>
+              </span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ========================= Main ==================== -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search here" />
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+          </div>
+
+          <div class="user">
+            <img src="./src/images/customer01.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- ======================= Cards ================== -->
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">2 Dias</div>
+              <div class="cardName">Proxima Corrida</div>
+              <div class="cardName">Bahrein</div>
+            </div>
+
+            <div class="iconBx">
+              <ion-icon name="car-sport-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">17,842</div>
+              <div class="cardName">Mahindra Points</div>
+            </div>
+
+            <div class="iconBx">
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================ Order Details List ================= -->
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Últimas Corridas</h2>
+              <a href="#" class="btn">Ver Todas</a>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <td>Vencedor</td>
+                  <td>Corrida</td>
+                  <td>Data</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Zane Maloney</td>
+                  <td>Bahrain</td>
+                  <td>29-02 March 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Enzo Fittipaldi</td>
+                  <td>Jeddah</td>
+                  <td>07-09 March 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Roman Stanek</td>
+                  <td>Albert Park</td>
+                  <td>22-24 March 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Franco Colapinto</td>
+                  <td>Enzo e Dino Ferrari</td>
+                  <td>17-19 May 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Taylor Barnard</td>
+                  <td>Circuit de Monaco</td>
+                  <td>23-26 May 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Frederik Vesti</td>
+                  <td>Circuit de Barcelona-Catalunya</td>
+                  <td>21-23 January 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+
+                <tr>
+                  <td>Jak Crawford</td>
+                  <td>Red Bull Ring</td>
+                  <td>28-30 January 2024</td>
+                  <td><span class="status delivered">Finalizada</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ================= New Customers ================ -->
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Friends</h2>
+            </div>
+
+            <table>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="./src/images/customer02.jpg" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Marcus <br />
+                    <span>Offline</span>
+                  </h4>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="./src/images/customer02.jpg" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    João <br />
+                    <span>Online</span>
+                  </h4>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="./src/images/customer01.jpg" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Allan <br />
+                    <span>Online</span>
+                  </h4>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="./src/images/customer01.jpg" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Arthur <br />
+                    <span>Offline</span>
+                  </h4>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="./src/images/customer02.jpg" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Gustavo <br />
+                    <span>Offline</span>
+                  </h4>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="./src/javascript/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

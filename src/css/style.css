@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background: none;
+  overflow: hidden;
+}
+
+/* Adicionando blur ao background da página */
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/bg.png") no-repeat center center/cover;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-right: 40px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+/* Parte vermelha do header */
+
+.logoheader {
+  width: 18%;
+  height: 100%;
+  right: 20px;
+  position: relative;
+  transform: skew(-20deg);
+  background: #b81d1a;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #212529;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #212529;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/* Quadrado central */
+
+.container {
+  position: absolute;
+  top: 188px;
+  left: 279px;
+  width: 1335px;
+  height: 767px;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: #ffffff;
+  border: 2px solid #b81d1a;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
