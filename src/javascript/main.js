@@ -19,3 +19,11 @@ toggle.onclick = function () {
   navigation.classList.toggle("active");
   main.classList.toggle("active");
 };
+
+
+//logout
+
+let logout = document.querySelector(".logout");
+logout.onclick = function () {
+  window.location.href = "index.html";
+};
