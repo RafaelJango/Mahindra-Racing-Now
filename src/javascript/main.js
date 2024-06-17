@@ -21,8 +21,8 @@ toggle.onclick = function () {
 };
 
 
-
 let logout = document.querySelector(".logout");
 logout.onclick = function () {
+  alert("Você foi deslogado com sucesso!");
   window.location.href = "index.html";
 };
