@@ -31,7 +31,7 @@ Para acessar áreas restritas do site, como a área administrativa, faça login 
 ## Participantes
 
 - Arthur Amaral: RM556951
-- CAUE GARAUDE: RM554838
-- LUIZ HENRIQUE: RM556001
+- Caue Garaude: RM554838
+- Luiz Henrique: RM556001
 - Rafael Jango: RM555297
 - Rafael Bocchi: RM557603
