@@ -27,3 +27,11 @@ Para acessar áreas restritas do site, como a área administrativa, faça login 
 
 - **Usuário:** admin@email.com
 - **Senha:** 123321
+
+## Participantes
+
+- Arthur Amaral: RM556951
+- CAUE GARAUDE: RM554838
+- LUIZ HENRIQUE: RM556001
+- Rafael Jango: RM555297
+- Rafael Bocchi: RM557603
